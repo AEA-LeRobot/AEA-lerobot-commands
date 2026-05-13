@@ -4,6 +4,24 @@ A complete guide for setting up, calibrating, teleoperation, dataset recording, 
 
 ---
 
+## 🌐 About the Ecosystem
+
+### 🤗 Hugging Face
+[Hugging Face](https://huggingface.co) is the leading open-source platform for AI and machine learning. It hosts thousands of pre-trained models, datasets, and Spaces (interactive demos), and provides tools to share, version, and collaborate on AI assets. In this project, Hugging Face is used to **store recorded robot datasets** and **publish trained AI policies**, making them easily accessible and reproducible across machines.
+
+### 🤖 LeRobot
+[LeRobot](https://github.com/huggingface/lerobot) is an open-source robotics framework developed by Hugging Face, designed to make real-world robot learning accessible to everyone. It provides ready-to-use tools for:
+- **Teleoperation** — manually controlling a robot arm via a leader-follower setup
+- **Dataset recording** — capturing robot demonstrations (images + joint positions) in a standardized format
+- **Policy training** — training neural network policies (e.g. ACT) directly from demonstrations
+- **Policy evaluation** — deploying a trained model back onto the physical robot
+
+LeRobot bridges the gap between AI research and physical hardware, allowing anyone to go from raw demonstrations to an autonomous robot policy with minimal friction.
+
+---
+
+---
+
 ## 📋 System Overview
 
 | Parameter | Value |
